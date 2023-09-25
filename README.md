@@ -354,6 +354,7 @@ HINT
 </summary>
 
 >  zcat S1_R1.fastq.gz | grep -e "@" |wc -l
+> 
 >  -l is the flag that let's you count lines
 
 </details>  
