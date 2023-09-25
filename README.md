@@ -284,6 +284,27 @@ Let's list the contents of the folder. What happened to `myfolder`?
 
 
 ---
+
+### Copying this/any GitHub repository
+
+**Remember**: You can check where you are with the command `pwd`.  
+
+To have access to some scripts and some of the mock data of this lesson, let's copy this GitHub repository to your home folder using `git clone`:
+
+```bash
+git clone https://github.com/TomasaSbaffi/ICME12_Verbania-2023
+```
+
+You should now have a folder called **ICME12_Verbania-2023** in your directory (where you were when you launched the command!).  
+
+To get the latest updates, pull the changes from GitHub using `git pull`:
+
+```bash
+cd ICME12_Verbania-2023
+git pull
+```
+
+---
 ### Shell scripts
 
 You don't need to run a command at a time, you can pre- think, organize series of actions (a program) that you can then execute within Bash:
@@ -361,28 +382,6 @@ The system will now ask you to change your password, please follow carefully [th
 Briefly:
 - The new password has to be 10 characters long
 - it must contain at least 1 capital letter, 1 number, and 1 special character ``(!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~``)
-
-
----
-
-### Copying this/any GitHub repository
-
-**Remember**: You can check where you are with the command `pwd`.  
-
-To have access to some scripts and some of the mock data of this lesson, let's copy this GitHub repository to your home folder using `git clone`:
-
-```bash
-git clone https://github.com/TomasaSbaffi/ICME12_Verbania-2023
-```
-
-You should now have a folder called **ICME12_Verbania-2023** in your directory (where you were when you launched the command!).  
-
-To get the latest updates, pull the changes from GitHub using `git pull`:
-
-```bash
-cd ICME12_Verbania-2023
-git pull
-```
 
 
 
